@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		97B0E9F8248008C100A9A5AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E9F7248008C100A9A5AD /* AppDelegate.swift */; };
+		97B0E9FA248008C100A9A5AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E9F9248008C100A9A5AD /* SceneDelegate.swift */; };
+		97B0E9FC248008C100A9A5AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0E9FB248008C100A9A5AD /* ContentView.swift */; };
+		97B0E9FE248008CC00A9A5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B0E9FD248008CC00A9A5AD /* Assets.xcassets */; };
+		97B0EA01248008CC00A9A5AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA00248008CC00A9A5AD /* Preview Assets.xcassets */; };
+		97B0EA04248008CC00A9A5AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA02248008CC00A9A5AD /* LaunchScreen.storyboard */; };
+		97B0EA112480097B00A9A5AD /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA0B2480097600A9A5AD /* video2.mp4 */; };
+		97B0EA122480097B00A9A5AD /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA0C2480097700A9A5AD /* video4.mp4 */; };
+		97B0EA132480097B00A9A5AD /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA0D2480097800A9A5AD /* video3.mp4 */; };
+		97B0EA142480097B00A9A5AD /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA0E2480097900A9A5AD /* video5.mp4 */; };
+		97B0EA152480097B00A9A5AD /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA0F2480097A00A9A5AD /* video6.mp4 */; };
+		97B0EA162480097B00A9A5AD /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 97B0EA102480097B00A9A5AD /* video1.mp4 */; };
+		97B0EA182480387000A9A5AD /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0EA172480387000A9A5AD /* Home.swift */; };
+		97B0EA1B248038CB00A9A5AD /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0EA1A248038CB00A9A5AD /* PlayerView.swift */; };
+		97B0EA1D2480390400A9A5AD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0EA1C2480390400A9A5AD /* Player.swift */; };
+		97B0EA1F2480392F00A9A5AD /* PlayerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0EA1E2480392F00A9A5AD /* PlayerScrollView.swift */; };
+		97B0EA212480395100A9A5AD /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B0EA202480395100A9A5AD /* Video.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		97B0E9F4248008C100A9A5AD /* TikTokDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TikTokDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97B0E9F7248008C100A9A5AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97B0E9F9248008C100A9A5AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97B0E9FB248008C100A9A5AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		97B0E9FD248008CC00A9A5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97B0EA00248008CC00A9A5AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97B0EA03248008CC00A9A5AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97B0EA05248008CC00A9A5AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97B0EA0B2480097600A9A5AD /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		97B0EA0C2480097700A9A5AD /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		97B0EA0D2480097800A9A5AD /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		97B0EA0E2480097900A9A5AD /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		97B0EA0F2480097A00A9A5AD /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		97B0EA102480097B00A9A5AD /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		97B0EA172480387000A9A5AD /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		97B0EA1A248038CB00A9A5AD /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		97B0EA1C2480390400A9A5AD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		97B0EA1E2480392F00A9A5AD /* PlayerScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScrollView.swift; sourceTree = "<group>"; };
+		97B0EA202480395100A9A5AD /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		97B0E9F1248008C100A9A5AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		97B0E9EB248008C100A9A5AD = {
+			isa = PBXGroup;
+			children = (
+				97B0E9F6248008C100A9A5AD /* TikTokDemo */,
+				97B0E9F5248008C100A9A5AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		97B0E9F5248008C100A9A5AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97B0E9F4248008C100A9A5AD /* TikTokDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		97B0E9F6248008C100A9A5AD /* TikTokDemo */ = {
+			isa = PBXGroup;
+			children = (
+				97B0EA102480097B00A9A5AD /* video1.mp4 */,
+				97B0EA0B2480097600A9A5AD /* video2.mp4 */,
+				97B0EA0D2480097800A9A5AD /* video3.mp4 */,
+				97B0EA0C2480097700A9A5AD /* video4.mp4 */,
+				97B0EA0E2480097900A9A5AD /* video5.mp4 */,
+				97B0EA0F2480097A00A9A5AD /* video6.mp4 */,
+				97B0E9F7248008C100A9A5AD /* AppDelegate.swift */,
+				97B0E9F9248008C100A9A5AD /* SceneDelegate.swift */,
+				97B0E9FB248008C100A9A5AD /* ContentView.swift */,
+				97B0EA172480387000A9A5AD /* Home.swift */,
+				97B0EA1A248038CB00A9A5AD /* PlayerView.swift */,
+				97B0EA1C2480390400A9A5AD /* Player.swift */,
+				97B0EA1E2480392F00A9A5AD /* PlayerScrollView.swift */,
+				97B0EA202480395100A9A5AD /* Video.swift */,
+				97B0E9FD248008CC00A9A5AD /* Assets.xcassets */,
+				97B0EA02248008CC00A9A5AD /* LaunchScreen.storyboard */,
+				97B0EA05248008CC00A9A5AD /* Info.plist */,
+				97B0E9FF248008CC00A9A5AD /* Preview Content */,
+			);
+			path = TikTokDemo;
+			sourceTree = "<group>";
+		};
+		97B0E9FF248008CC00A9A5AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				97B0EA00248008CC00A9A5AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		97B0E9F3248008C100A9A5AD /* TikTokDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97B0EA08248008CC00A9A5AD /* Build configuration list for PBXNativeTarget "TikTokDemo" */;
+			buildPhases = (
+				97B0E9F0248008C100A9A5AD /* Sources */,
+				97B0E9F1248008C100A9A5AD /* Frameworks */,
+				97B0E9F2248008C100A9A5AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TikTokDemo;
+			productName = TikTokDemo;
+			productReference = 97B0E9F4248008C100A9A5AD /* TikTokDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		97B0E9EC248008C100A9A5AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Puspank Kumar";
+				TargetAttributes = {
+					97B0E9F3248008C100A9A5AD = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 97B0E9EF248008C100A9A5AD /* Build configuration list for PBXProject "TikTokDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 97B0E9EB248008C100A9A5AD;
+			productRefGroup = 97B0E9F5248008C100A9A5AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				97B0E9F3248008C100A9A5AD /* TikTokDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B0E9F2248008C100A9A5AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B0EA162480097B00A9A5AD /* video1.mp4 in Resources */,
+				97B0EA04248008CC00A9A5AD /* LaunchScreen.storyboard in Resources */,
+				97B0EA132480097B00A9A5AD /* video3.mp4 in Resources */,
+				97B0EA01248008CC00A9A5AD /* Preview Assets.xcassets in Resources */,
+				97B0EA112480097B00A9A5AD /* video2.mp4 in Resources */,
+				97B0EA142480097B00A9A5AD /* video5.mp4 in Resources */,
+				97B0EA122480097B00A9A5AD /* video4.mp4 in Resources */,
+				97B0EA152480097B00A9A5AD /* video6.mp4 in Resources */,
+				97B0E9FE248008CC00A9A5AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		97B0E9F0248008C100A9A5AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97B0EA1F2480392F00A9A5AD /* PlayerScrollView.swift in Sources */,
+				97B0E9F8248008C100A9A5AD /* AppDelegate.swift in Sources */,
+				97B0E9FA248008C100A9A5AD /* SceneDelegate.swift in Sources */,
+				97B0EA182480387000A9A5AD /* Home.swift in Sources */,
+				97B0EA1B248038CB00A9A5AD /* PlayerView.swift in Sources */,
+				97B0EA212480395100A9A5AD /* Video.swift in Sources */,
+				97B0EA1D2480390400A9A5AD /* Player.swift in Sources */,
+				97B0E9FC248008C100A9A5AD /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		97B0EA02248008CC00A9A5AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				97B0EA03248008CC00A9A5AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		97B0EA06248008CC00A9A5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		97B0EA07248008CC00A9A5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		97B0EA09248008CC00A9A5AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TikTokDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F7SW76LL6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TikTokDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dev.PropGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		97B0EA0A248008CC00A9A5AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TikTokDemo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4F7SW76LL6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TikTokDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.dev.PropGo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		97B0E9EF248008C100A9A5AD /* Build configuration list for PBXProject "TikTokDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B0EA06248008CC00A9A5AD /* Debug */,
+				97B0EA07248008CC00A9A5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		97B0EA08248008CC00A9A5AD /* Build configuration list for PBXNativeTarget "TikTokDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97B0EA09248008CC00A9A5AD /* Debug */,
+				97B0EA0A248008CC00A9A5AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 97B0E9EC248008C100A9A5AD /* Project object */;
+}
